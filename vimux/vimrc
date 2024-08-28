@@ -48,6 +48,8 @@ nmap A :cs f a <cword><CR>
 nmap M <Plug>(lcn-menu)
 nmap D <Plug>(lcn-definition)
 nmap R <Plug>(lcn-references)
+map <C-PageUp> :bp<CR>
+map <C-PageDown> :bn<CR>
 
 " show tab
 set list
