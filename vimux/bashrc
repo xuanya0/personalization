@@ -1,0 +1,2 @@
+eval "$(fzf --bash)"
+teval() { eval $(tmux show-environment -s); }
